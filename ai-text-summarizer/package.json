@@ -1,0 +1,25 @@
+{
+  "name": "ai-text-summarizer",
+  "version": "1.0.0",
+  "description": "CLI tool to summarize unstructured text using OpenAI API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "summarizer",
+    "cli",
+    "openai"
+  ],
+  "author": "Vinay Manchisaraf",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "openai": "^6.32.0"
+  }
+}
